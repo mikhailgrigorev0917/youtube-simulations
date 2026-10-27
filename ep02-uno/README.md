@@ -6,13 +6,6 @@ High-performance Python Monte Carlo simulation engine evaluating 6 distinct UNO 
 
 ## Empirical Results: Win Rate vs 3 Casual Players
 
-| **#1** | **Card Counter** | `31.82%` | `±0.37%` | Bayesian tracking of opponent color voids; forces dead colors. |
-| **#2** | **Greedy Color** | `31.98%` | `±0.37%` | Plays dominant hand color; minimizes draw pile reliance. |
-| **#3** | **Tactical Sniper** | `31.09%` | `±0.37%` | Holds action cards in reserve until an opponent calls UNO. |
-| **#4** | **Point Minimizer** | `26.28%` | `±0.35%` | Prioritizes dumping high-point cards to reduce loss penalties. |
-| **#5** | **Aggressive Attacker** | `26.67%` | `±0.35%` | Fires +2, +4, and Skips immediately in the opening turns. |
-| **#6** | **Random Baseline** | `24.76%` | `±0.35%` | Baseline pure luck line (1 in 4 players = 25.0%). |
-
 | Rank | Strategy | Win Rate | 95% CI | Philosophy |
 |:---:|---|:---:|:---:|---|
 | **#1** | **Card Counter** | `31.82%` | `±0.37%` | Bayesian tracking of opponent color voids; forces dead colors. |

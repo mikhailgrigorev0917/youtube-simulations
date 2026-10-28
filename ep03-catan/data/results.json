@@ -1,0 +1,38 @@
+{
+  "sampleGames": 400,
+  "avgTurn0BlockedVertices": 27.0,
+  "sampleRawWinRates": {
+    "random_settler": 3.07,
+    "naive_pip": 21.35,
+    "port_specialist": 12.03,
+    "road_builder": 16.1,
+    "ows_city_engine": 45.28,
+    "alpha_catan": 51.09
+  },
+  "canonicalTournamentWinRates": {
+    "alpha_catan": 36.8,
+    "ows_city_engine": 33.8,
+    "port_specialist": 31.6,
+    "naive_pip": 25.8,
+    "road_builder": 21.4,
+    "random_settler": 14.2
+  },
+  "colonistDatasetStats": {
+    "totalGames": 47000,
+    "turn0Predictability": 27.0,
+    "seatWinRates": [
+      24.9,
+      25.0,
+      25.3,
+      24.8
+    ],
+    "longestRoadFrequency": 96.0,
+    "longestRoadWinRate": 59.0,
+    "largestArmyFrequency": 57.0,
+    "largestArmyWinRate": 54.0,
+    "monopoly0WinRate": 25.0,
+    "monopoly1WinRate": 40.0,
+    "wheatStartWinRate": 32.4,
+    "noWheatStartWinRate": 14.2
+  }
+}

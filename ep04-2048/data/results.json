@@ -1,0 +1,141 @@
+{
+  "timestamp": "2026-10-27T19:59:27Z",
+  "tournament_summary": [
+    {
+      "bot_id": "random",
+      "games_played": 1000,
+      "p4": 0.1,
+      "avg_score": 1073.2,
+      "max_score": 3464,
+      "avg_moves": 116.6,
+      "win_rate_2048": 0.0,
+      "rate_4096": 0.0,
+      "rate_8192": 0.0,
+      "tile_distribution": {
+        "64": 404,
+        "128": 456,
+        "256": 80,
+        "32": 57,
+        "16": 3
+      }
+    },
+    {
+      "bot_id": "greedy",
+      "games_played": 1000,
+      "p4": 0.1,
+      "avg_score": 3174.1,
+      "max_score": 11556,
+      "avg_moves": 264.5,
+      "win_rate_2048": 0.0,
+      "rate_4096": 0.0,
+      "rate_8192": 0.0,
+      "tile_distribution": {
+        "256": 484,
+        "512": 144,
+        "128": 328,
+        "64": 41,
+        "1024": 2,
+        "32": 1
+      }
+    },
+    {
+      "bot_id": "corner",
+      "games_played": 1000,
+      "p4": 0.1,
+      "avg_score": 2522.2,
+      "max_score": 7656,
+      "avg_moves": 223.8,
+      "win_rate_2048": 0.0,
+      "rate_4096": 0.0,
+      "rate_8192": 0.0,
+      "tile_distribution": {
+        "128": 382,
+        "256": 464,
+        "64": 99,
+        "512": 45,
+        "32": 10
+      }
+    },
+    {
+      "bot_id": "heuristic",
+      "games_played": 1000,
+      "p4": 0.1,
+      "avg_score": 4366.3,
+      "max_score": 15928,
+      "avg_moves": 329.9,
+      "win_rate_2048": 0.0,
+      "rate_4096": 0.0,
+      "rate_8192": 0.0,
+      "tile_distribution": {
+        "256": 461,
+        "512": 294,
+        "128": 190,
+        "1024": 30,
+        "64": 24,
+        "32": 1
+      }
+    },
+    {
+      "bot_id": "expectimax",
+      "games_played": 1000,
+      "p4": 0.1,
+      "avg_score": 14280.5,
+      "max_score": 61656,
+      "avg_moves": 826.5,
+      "win_rate_2048": 20.6,
+      "rate_4096": 0.2,
+      "rate_8192": 0.0,
+      "tile_distribution": {
+        "1024": 427,
+        "2048": 204,
+        "512": 231,
+        "128": 22,
+        "256": 113,
+        "64": 1,
+        "4096": 2
+      }
+    }
+  ],
+  "phase_transition_curve": [
+    {
+      "p4": 0.0,
+      "win_rate_2048": 0.0,
+      "avg_score": 5161.0
+    },
+    {
+      "p4": 0.05,
+      "win_rate_2048": 0.0,
+      "avg_score": 5352.4
+    },
+    {
+      "p4": 0.1,
+      "win_rate_2048": 0.0,
+      "avg_score": 4056.7
+    },
+    {
+      "p4": 0.15,
+      "win_rate_2048": 0.0,
+      "avg_score": 4146.8
+    },
+    {
+      "p4": 0.2,
+      "win_rate_2048": 0.0,
+      "avg_score": 4112.1
+    },
+    {
+      "p4": 0.25,
+      "win_rate_2048": 0.0,
+      "avg_score": 3373.3
+    },
+    {
+      "p4": 0.3,
+      "win_rate_2048": 0.0,
+      "avg_score": 3431.9
+    },
+    {
+      "p4": 0.4,
+      "win_rate_2048": 0.0,
+      "avg_score": 2958.1
+    }
+  ]
+}

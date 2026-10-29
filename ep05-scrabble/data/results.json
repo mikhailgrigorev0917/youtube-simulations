@@ -1,0 +1,819 @@
+{
+  "dataset_summary": {
+    "source": "data/scrable_dataset.zip (Woogles.io Competitive Archive)",
+    "total_games": 500,
+    "total_player_scores": 986,
+    "total_turns": 14541,
+    "total_word_plays": 13344,
+    "total_exchanges": 605,
+    "overall_short_play_rate_le_3_tiles": 0.6485,
+    "overall_avg_tiles_per_play": 3.18
+  },
+  "tiers": {
+    "beginner_under_1500": {
+      "games": 138,
+      "avg_score": 274.8,
+      "win_rate": 0.326,
+      "avg_points_per_play": 21.0,
+      "avg_tiles_used": 2.97,
+      "short_play_rate_le_3": 0.727,
+      "bingo_rate_per_play": 0.0372,
+      "avg_points_with_s": 28.7,
+      "avg_points_with_blank": 50.4,
+      "avg_points_with_jqxz": 29.7
+    },
+    "intermediate_1500_1750": {
+      "games": 190,
+      "avg_score": 261.3,
+      "win_rate": 0.411,
+      "avg_points_per_play": 21.3,
+      "avg_tiles_used": 2.97,
+      "short_play_rate_le_3": 0.724,
+      "bingo_rate_per_play": 0.0396,
+      "avg_points_with_s": 35.8,
+      "avg_points_with_blank": 44.3,
+      "avg_points_with_jqxz": 31.9
+    },
+    "advanced_over_1750": {
+      "games": 163,
+      "avg_score": 343.9,
+      "win_rate": 0.632,
+      "avg_points_per_play": 25.0,
+      "avg_tiles_used": 3.2,
+      "short_play_rate_le_3": 0.674,
+      "bingo_rate_per_play": 0.0745,
+      "avg_points_with_s": 45.3,
+      "avg_points_with_blank": 56.2,
+      "avg_points_with_jqxz": 34.1
+    },
+    "basic_bot": {
+      "games": 495,
+      "avg_score": 307.0,
+      "win_rate": 0.547,
+      "avg_points_per_play": 22.1,
+      "avg_tiles_used": 3.31,
+      "short_play_rate_le_3": 0.591,
+      "bingo_rate_per_play": 0.0571,
+      "avg_points_with_s": 36.8,
+      "avg_points_with_blank": 57.1,
+      "avg_points_with_jqxz": 29.5
+    }
+  },
+  "beginner_winners_vs_losers": {
+    "losers": {
+      "avg_points_per_play": 19.4,
+      "avg_tiles_used": 2.83,
+      "bingo_rate": 0.0282,
+      "s_play_avg_points": 29.2,
+      "blank_play_avg_points": 42.9,
+      "high_impact_play_30plus_rate": 0.135
+    },
+    "winners": {
+      "avg_points_per_play": 23.7,
+      "avg_tiles_used": 3.16,
+      "bingo_rate": 0.0531,
+      "s_play_avg_points": 36.1,
+      "blank_play_avg_points": 50.9,
+      "high_impact_play_30plus_rate": 0.227
+    }
+  },
+  "bingo_impact_under_1600": {
+    "zero_bingos_win_rate": 0.224,
+    "one_bingo_win_rate": 0.46,
+    "two_plus_bingos_win_rate": 0.533
+  },
+  "s_and_blank_discipline_under_1600": {
+    "s_saved_win_rate": 0.356,
+    "s_wasted_under_18pts_win_rate": 0.289,
+    "blank_saved_win_rate": 0.342,
+    "blank_wasted_under_25pts_win_rate": 0.279
+  },
+  "power_two_letter_words": [
+    {
+      "word": "ZA",
+      "count": 29,
+      "avg_points": 35.0,
+      "max_points": 64
+    },
+    {
+      "word": "EX",
+      "count": 31,
+      "avg_points": 33.5,
+      "max_points": 52
+    },
+    {
+      "word": "OX",
+      "count": 34,
+      "avg_points": 30.8,
+      "max_points": 52
+    },
+    {
+      "word": "JO",
+      "count": 34,
+      "avg_points": 28.1,
+      "max_points": 52
+    },
+    {
+      "word": "QI",
+      "count": 105,
+      "avg_points": 26.0,
+      "max_points": 46
+    },
+    {
+      "word": "YE",
+      "count": 30,
+      "avg_points": 20.8,
+      "max_points": 48
+    },
+    {
+      "word": "OW",
+      "count": 29,
+      "avg_points": 20.8,
+      "max_points": 36
+    },
+    {
+      "word": "HO",
+      "count": 28,
+      "avg_points": 19.5,
+      "max_points": 42
+    }
+  ],
+  "notable_real_turns": {
+    "long_word_low_score": {
+      "game_id": "aZXEhjXA",
+      "turn": 6,
+      "player": "Lucx12",
+      "rack": "BELNOTT",
+      "location": "F1",
+      "move": "BOTTLE.",
+      "points": 13
+    },
+    "two_letter_explosion_za": {
+      "game_id": "mQdxsaWa",
+      "turn": 11,
+      "player": "NIMESHA",
+      "rack": "AGRSTUZ",
+      "location": "N6",
+      "move": "ZA",
+      "points": 64
+    },
+    "two_letter_explosion_ze": {
+      "game_id": "tVMX3Ssf",
+      "turn": 12,
+      "player": "Vincent123",
+      "rack": "DEILUWZ",
+      "location": "10F",
+      "move": "ZE.",
+      "points": 68
+    },
+    "everyday_bingo_glazing": {
+      "game_id": "XDdCMmkM",
+      "turn": 15,
+      "player": "UglyBug",
+      "rack": "AGGILNZ",
+      "location": "1F",
+      "move": "GLAZING.",
+      "points": 113
+    }
+  },
+  "two_million_turns_dataset": {
+    "total_games": 72773,
+    "total_turns": 2005498,
+    "first_advantage": {
+      "total_games": 72773,
+      "winner_0_first": 46713,
+      "winner_1_second": 25792,
+      "winner_tie": 268,
+      "equal_rated_games": 6498,
+      "first_player_win_rate_equal_rating": 0.5487842413050169,
+      "avg_score_first_player": 408.08064019698367,
+      "avg_score_second_player": 395.24792243767314
+    },
+    "turn_types": {
+      "Play": 1872864,
+      "End": 67987,
+      "Exchange": 48997,
+      "Pass": 8065,
+      "Timeout": 4143,
+      "Challenge": 2571,
+      "Six-Zero Rule": 476,
+      "NaN": 395
+    },
+    "tiles_placed_efficiency": {
+      "1": {
+        "count": 90656,
+        "avg_points": 12.10291651959054,
+        "pts_per_tile": 12.10291651959054
+      },
+      "2": {
+        "count": 345300,
+        "avg_points": 20.18367506516073,
+        "pts_per_tile": 10.091837532580366
+      },
+      "3": {
+        "count": 516630,
+        "avg_points": 23.931751930782184,
+        "pts_per_tile": 7.977250643594061
+      },
+      "4": {
+        "count": 396249,
+        "avg_points": 27.21826932055349,
+        "pts_per_tile": 6.804567330138372
+      },
+      "5": {
+        "count": 219661,
+        "avg_points": 30.77232644848198,
+        "pts_per_tile": 6.154465289696396
+      },
+      "6": {
+        "count": 70281,
+        "avg_points": 33.2230190236337,
+        "pts_per_tile": 5.537169837272283
+      },
+      "7": {
+        "count": 234028,
+        "avg_points": 76.33078093219615,
+        "pts_per_tile": 10.904397276028021
+      }
+    },
+    "two_letter_words_top25": {
+      "QI": {
+        "count": 14221,
+        "avg_points": 29.072006188031786,
+        "max_points": 69
+      },
+      "OI": {
+        "count": 4635,
+        "avg_points": 11.5042071197411,
+        "max_points": 44
+      },
+      "XI": {
+        "count": 4419,
+        "avg_points": 36.77393075356415,
+        "max_points": 75
+      },
+      "OX": {
+        "count": 3659,
+        "avg_points": 37.634872916097294,
+        "max_points": 73
+      },
+      "EX": {
+        "count": 3410,
+        "avg_points": 39.157771260997066,
+        "max_points": 66
+      },
+      "AX": {
+        "count": 2949,
+        "avg_points": 38.24075957951848,
+        "max_points": 69
+      },
+      "YO": {
+        "count": 2517,
+        "avg_points": 22.747318235995234,
+        "max_points": 48
+      },
+      "OF": {
+        "count": 2385,
+        "avg_points": 23.826415094339623,
+        "max_points": 54
+      },
+      "ZA": {
+        "count": 2382,
+        "avg_points": 43.49748110831234,
+        "max_points": 74
+      },
+      "IF": {
+        "count": 2212,
+        "avg_points": 22.255424954792044,
+        "max_points": 60
+      },
+      "HI": {
+        "count": 2088,
+        "avg_points": 23.015325670498083,
+        "max_points": 53
+      },
+      "OE": {
+        "count": 2079,
+        "avg_points": 13.135161135161136,
+        "max_points": 48
+      },
+      "FA": {
+        "count": 2043,
+        "avg_points": 23.08565834557024,
+        "max_points": 53
+      },
+      "OW": {
+        "count": 1952,
+        "avg_points": 23.655225409836067,
+        "max_points": 53
+      },
+      "JO": {
+        "count": 1949,
+        "avg_points": 32.48024628014366,
+        "max_points": 75
+      },
+      "YE": {
+        "count": 1846,
+        "avg_points": 23.45503791982665,
+        "max_points": 49
+      },
+      "OH": {
+        "count": 1754,
+        "avg_points": 25.175598631698975,
+        "max_points": 50
+      },
+      "WE": {
+        "count": 1744,
+        "avg_points": 24.06651376146789,
+        "max_points": 52
+      },
+      "YA": {
+        "count": 1741,
+        "avg_points": 23.39862148190695,
+        "max_points": 63
+      },
+      "AW": {
+        "count": 1659,
+        "avg_points": 23.786015672091622,
+        "max_points": 52
+      },
+      "AI": {
+        "count": 1609,
+        "avg_points": 11.912367930391548,
+        "max_points": 41
+      },
+      "EH": {
+        "count": 1609,
+        "avg_points": 25.001243008079552,
+        "max_points": 53
+      },
+      "XU": {
+        "count": 1604,
+        "avg_points": 35.63965087281795,
+        "max_points": 62
+      },
+      "HO": {
+        "count": 1584,
+        "avg_points": 24.24558080808081,
+        "max_points": 49
+      },
+      "AA": {
+        "count": 1530,
+        "avg_points": 12.729411764705882,
+        "max_points": 36
+      }
+    },
+    "blank_analysis": {
+      "total_blank_plays": 134601,
+      "blank_bingo_rate": 0.7947563539646808,
+      "avg_points_with_blank": 68.18921850506311,
+      "avg_points_without_blank": 28.186838815530216,
+      "blank_letter_distribution": {
+        "S": {
+          "count": 21936,
+          "share": 0.15459100615234994
+        },
+        "E": {
+          "count": 14902,
+          "share": 0.10501983833343904
+        },
+        "R": {
+          "count": 10126,
+          "share": 0.07136162145781799
+        },
+        "A": {
+          "count": 9987,
+          "share": 0.07038203767521511
+        },
+        "T": {
+          "count": 9505,
+          "share": 0.06698520758014616
+        },
+        "N": {
+          "count": 9423,
+          "share": 0.06640732362206389
+        },
+        "I": {
+          "count": 9216,
+          "share": 0.06494851899617328
+        },
+        "L": {
+          "count": 6893,
+          "share": 0.04857748930562309
+        },
+        "D": {
+          "count": 6432,
+          "share": 0.045328653882745935
+        },
+        "O": {
+          "count": 6284,
+          "share": 0.04428564381206086
+        },
+        "U": {
+          "count": 5698,
+          "share": 0.04015588772137536
+        },
+        "G": {
+          "count": 5085,
+          "share": 0.035835852766443264
+        }
+      }
+    },
+    "exchange_analysis": {
+      "total_exchanges": 48997,
+      "size_distribution": {
+        "6": 7054,
+        "3": 4309,
+        "7": 2319,
+        "2": 15916,
+        "5": 10174,
+        "4": 8315,
+        "8": 910
+      },
+      "post_exchange_avg_points": 33.560287081339716,
+      "post_exchange_bingo_rate": 0.20173988690735103
+    },
+    "tier_metrics": {
+      "1500-1800": {
+        "plays_count": 441339,
+        "turns_count": 472889,
+        "avg_points_per_play": 28.007846575988072,
+        "avg_tiles_used": 3.582248566294844,
+        "bingo_rate": 0.1004579246338982,
+        "short_play_rate": 0.26826770351135976,
+        "exchange_rate": 0.0291209987967578
+      },
+      "1800-2100": {
+        "plays_count": 592892,
+        "turns_count": 633177,
+        "avg_points_per_play": 31.181682330002765,
+        "avg_tiles_used": 3.791766459996087,
+        "bingo_rate": 0.12721035196966732,
+        "short_play_rate": 0.22806851838108796,
+        "exchange_rate": 0.023312596635695865
+      },
+      "<1500": {
+        "plays_count": 33400,
+        "turns_count": 36807,
+        "avg_points_per_play": 22.362574850299403,
+        "avg_tiles_used": 3.029550898203593,
+        "bingo_rate": 0.05751497005988024,
+        "short_play_rate": 0.4048502994011976,
+        "exchange_rate": 0.052761702936941345
+      },
+      ">2100": {
+        "plays_count": 234875,
+        "turns_count": 248416,
+        "avg_points_per_play": 36.59678552421501,
+        "avg_tiles_used": 4.159842469398616,
+        "bingo_rate": 0.16279297498669504,
+        "short_play_rate": 0.1594252261841405,
+        "exchange_rate": 0.010373727940229293
+      }
+    },
+    "direction_1_q_curse": {
+      "q_rack_turns": 137888,
+      "q_played_total": 70068,
+      "q_qi_percentage": 0.35024547582348575,
+      "q_exchanged_count": 5843,
+      "q_moves_top10": [
+        {
+          "move": "QI",
+          "count": 14221
+        },
+        {
+          "move": "Q.",
+          "count": 10318
+        },
+        {
+          "move": "QAT",
+          "count": 2640
+        },
+        {
+          "move": "QIS",
+          "count": 1497
+        },
+        {
+          "move": "QI.",
+          "count": 1399
+        },
+        {
+          "move": "QIN",
+          "count": 1265
+        },
+        {
+          "move": "QA.",
+          "count": 1167
+        },
+        {
+          "move": "Q.T",
+          "count": 1106
+        },
+        {
+          "move": "Q.N",
+          "count": 817
+        },
+        {
+          "move": "QUA",
+          "count": 580
+        }
+      ],
+      "endgame_penalties": {
+        "total_end_turns": 67987,
+        "avg_penalty_transferred": 8.436936473149279,
+        "max_penalty_transferred": 68,
+        "stuck_heavy_tiles": {
+          "Q": 2173,
+          "Z": 704,
+          "J": 951,
+          "X": 525
+        },
+        "top10_stuck_letters": [
+          {
+            "letter": "I",
+            "count": 23860
+          },
+          {
+            "letter": "E",
+            "count": 19947
+          },
+          {
+            "letter": "R",
+            "count": 16735
+          },
+          {
+            "letter": "N",
+            "count": 15751
+          },
+          {
+            "letter": "T",
+            "count": 14960
+          },
+          {
+            "letter": "A",
+            "count": 13365
+          },
+          {
+            "letter": "U",
+            "count": 11862
+          },
+          {
+            "letter": "O",
+            "count": 11565
+          },
+          {
+            "letter": "L",
+            "count": 10581
+          },
+          {
+            "letter": "S",
+            "count": 8445
+          }
+        ]
+      }
+    },
+    "direction_4_board_geometry": {
+      "total_cell_visits": 8168000,
+      "multiplier_stats": {
+        "triple_word": {
+          "hits": 378490,
+          "avg_points": 38.44462733493619,
+          "max_points": 311
+        },
+        "double_word": {
+          "hits": 836784,
+          "avg_points": 31.96150021988948,
+          "max_points": 171
+        },
+        "triple_letter": {
+          "hits": 331120,
+          "avg_points": 28.891054602561006,
+          "max_points": 125
+        },
+        "double_letter": {
+          "hits": 274870,
+          "avg_points": 24.259591807036053,
+          "max_points": 138
+        },
+        "plain_squares": {
+          "hits": 51541,
+          "avg_points": 12.480277837061756
+        }
+      },
+      "top_10_most_visited_cells": [
+        {
+          "row": 7,
+          "col": 7,
+          "coord": "8H",
+          "visits": 93082,
+          "avg_pts": 5.787315781755937
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "coord": "8G",
+          "visits": 73988,
+          "avg_pts": 5.744764580403486
+        },
+        {
+          "row": 14,
+          "col": 7,
+          "coord": "15H",
+          "visits": 70145,
+          "avg_pts": 8.034385764717214
+        },
+        {
+          "row": 7,
+          "col": 14,
+          "coord": "8O",
+          "visits": 65164,
+          "avg_pts": 8.168994706706565
+        },
+        {
+          "row": 7,
+          "col": 8,
+          "coord": "8I",
+          "visits": 64008,
+          "avg_pts": 5.900795865749522
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "coord": "8D",
+          "visits": 61499,
+          "avg_pts": 6.42785509575618
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "coord": "8E",
+          "visits": 60673,
+          "avg_pts": 6.158005301596744
+        },
+        {
+          "row": 11,
+          "col": 3,
+          "coord": "12D",
+          "visits": 58989,
+          "avg_pts": 6.7888452427981285
+        },
+        {
+          "row": 3,
+          "col": 11,
+          "coord": "4L",
+          "visits": 58166,
+          "avg_pts": 6.918733436550113
+        },
+        {
+          "row": 10,
+          "col": 4,
+          "coord": "11E",
+          "visits": 57741,
+          "avg_pts": 6.981937618483583
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "coord": "5K",
+          "visits": 57462,
+          "avg_pts": 7.082837196477929
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "coord": "8F",
+          "visits": 55823,
+          "avg_pts": 6.102457920617183
+        },
+        {
+          "row": 13,
+          "col": 7,
+          "coord": "14H",
+          "visits": 55402,
+          "avg_pts": 7.500026184712269
+        },
+        {
+          "row": 10,
+          "col": 10,
+          "coord": "11K",
+          "visits": 55131,
+          "avg_pts": 7.060032934069778
+        },
+        {
+          "row": 11,
+          "col": 11,
+          "coord": "12L",
+          "visits": 54715,
+          "avg_pts": 6.81606025808853
+        }
+      ],
+      "top_10_highest_point_cells": [
+        {
+          "row": 14,
+          "col": 7,
+          "coord": "15H",
+          "total_points": 563571.9894660889,
+          "visits": 70145
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "coord": "8H",
+          "total_points": 538694.9275974061,
+          "visits": 93082
+        },
+        {
+          "row": 7,
+          "col": 14,
+          "coord": "8O",
+          "total_points": 532324.3710678266,
+          "visits": 65164
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "coord": "1H",
+          "total_points": 432456.8686507959,
+          "visits": 54698
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "coord": "8G",
+          "total_points": 425043.64177489316,
+          "visits": 73988
+        },
+        {
+          "row": 13,
+          "col": 7,
+          "coord": "14H",
+          "total_points": 415516.4506854291,
+          "visits": 55402
+        },
+        {
+          "row": 14,
+          "col": 0,
+          "coord": "15A",
+          "total_points": 410773.5882034609,
+          "visits": 46852
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "coord": "5K",
+          "total_points": 406993.99098401476,
+          "visits": 57462
+        },
+        {
+          "row": 10,
+          "col": 4,
+          "coord": "11E",
+          "total_points": 403144.0600288606,
+          "visits": 57741
+        },
+        {
+          "row": 3,
+          "col": 11,
+          "coord": "4L",
+          "total_points": 402435.0490703739,
+          "visits": 58166
+        },
+        {
+          "row": 0,
+          "col": 14,
+          "coord": "1O",
+          "total_points": 401412.7773448745,
+          "visits": 45630
+        },
+        {
+          "row": 11,
+          "col": 3,
+          "coord": "12D",
+          "total_points": 400467.1920274188,
+          "visits": 58989
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "coord": "8D",
+          "total_points": 395306.66053390934,
+          "visits": 61499
+        },
+        {
+          "row": 10,
+          "col": 10,
+          "coord": "11K",
+          "total_points": 389226.6756882009,
+          "visits": 55131
+        },
+        {
+          "row": 12,
+          "col": 7,
+          "coord": "13H",
+          "total_points": 389065.72784992855,
+          "visits": 52636
+        }
+      ]
+    }
+  }
+}

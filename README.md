@@ -10,6 +10,7 @@ Open-source simulation engines, evolutionary bot tournaments, and empirical data
 | **Ep 02** | **UNO:** The Math of Betrayal, Color Flow & Bayesian Card Counting | `1,000,000` | [`ep02-uno/`](./ep02-uno/) | [Watch](https://youtu.be/cKz7uD14VpY) |
 | **Ep 03** | **Catan:** 47,000 Human Matches & 500,000 Multi-Agent Simulations | `500,000` | [`ep03-catan/`](./ep03-catan/) | [Watch](https://youtu.be/yU_14mK12nQ) |
 | **Ep 04** | **2048:** The 2014 Corner Lie, Parity Poisoning & Expectimax AI | `5,800` | [`ep04-2048/`](./ep04-2048/) | [Watch](https://youtu.be/VLQegGMLVSA) |
+| **Ep 05** | **Scrabble:** 2M Turns, The 6-Tile Trap & Rack Leave AI | `2,005,498` | [`ep05-scrabble/`](./ep05-scrabble/) | [Watch](https://youtu.be/Ro8JRJaJnQo) |
 
 ---
 
@@ -42,6 +43,13 @@ cd ep04-2048
 pytest simulation/tests
 python run_tournament.py --games 50
 python run_tournament.py --bot expectimax --games 20 --depth 3
+```
+
+### Episode 05 — Scrabble 5-Bot Tournament
+```bash
+cd ep05-scrabble
+pytest simulation/tests
+python run_tournament.py --games 50
 ```
 
 ---

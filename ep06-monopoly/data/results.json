@@ -1,0 +1,487 @@
+{
+  "tournament_games": 50000,
+  "jail_tile_probability_pct": 6.2,
+  "orange_group_probability_pct": 8.81,
+  "red_group_probability_pct": 8.76,
+  "dark_blue_probability_pct": 4.82,
+  "railroad_group_probability_pct": 11.38,
+  "win_rates": {
+    "Boardwalk Tycoon": {
+      "wins": 2786,
+      "games": 40160,
+      "win_rate_pct": 6.9
+    },
+    "Naive Hoarder": {
+      "wins": 4537,
+      "games": 40004,
+      "win_rate_pct": 11.3
+    },
+    "Orange/Red Markov Sniper": {
+      "wins": 11109,
+      "games": 40109,
+      "win_rate_pct": 27.7
+    },
+    "3-House Inflection Scalper": {
+      "wins": 14074,
+      "games": 39811,
+      "win_rate_pct": 35.4
+    },
+    "32-House Lockout & Jail Camper": {
+      "wins": 17494,
+      "games": 39916,
+      "win_rate_pct": 43.8
+    }
+  },
+  "roi_table": {
+    "Brown": {
+      "prop_cost": 120.0,
+      "house_cost": 50.0,
+      "group_visit_rate_pct": 4.3,
+      "cost_3_houses": 420.0,
+      "cost_hotel": 620.0,
+      "rent_3_houses_sum": 270.0,
+      "rent_hotel_sum": 700.0,
+      "expected_rent_3h_per_turn": 5.82,
+      "expected_rent_hotel_per_turn": 15.07,
+      "turns_breakeven_3h": 72.2,
+      "turns_breakeven_hotel": 41.1
+    },
+    "Light Blue": {
+      "prop_cost": 320.0,
+      "house_cost": 50.0,
+      "group_visit_rate_pct": 6.89,
+      "cost_3_houses": 770.0,
+      "cost_hotel": 1070.0,
+      "rent_3_houses_sum": 840.0,
+      "rent_hotel_sum": 1700.0,
+      "expected_rent_3h_per_turn": 19.28,
+      "expected_rent_hotel_per_turn": 39.02,
+      "turns_breakeven_3h": 39.9,
+      "turns_breakeven_hotel": 27.4
+    },
+    "Pink": {
+      "prop_cost": 440.0,
+      "house_cost": 100.0,
+      "group_visit_rate_pct": 7.54,
+      "cost_3_houses": 1340.0,
+      "cost_hotel": 1940.0,
+      "rent_3_houses_sum": 1400.0,
+      "rent_hotel_sum": 2400.0,
+      "expected_rent_3h_per_turn": 35.16,
+      "expected_rent_hotel_per_turn": 60.25,
+      "turns_breakeven_3h": 38.1,
+      "turns_breakeven_hotel": 32.2
+    },
+    "Orange": {
+      "prop_cost": 560.0,
+      "house_cost": 100.0,
+      "group_visit_rate_pct": 8.81,
+      "cost_3_houses": 1460.0,
+      "cost_hotel": 2060.0,
+      "rent_3_houses_sum": 1700.0,
+      "rent_hotel_sum": 2900.0,
+      "expected_rent_3h_per_turn": 50.0,
+      "expected_rent_hotel_per_turn": 85.24,
+      "turns_breakeven_3h": 29.2,
+      "turns_breakeven_hotel": 24.2
+    },
+    "Red": {
+      "prop_cost": 680.0,
+      "house_cost": 150.0,
+      "group_visit_rate_pct": 8.76,
+      "cost_3_houses": 2030.0,
+      "cost_hotel": 2930.0,
+      "rent_3_houses_sum": 2150.0,
+      "rent_hotel_sum": 3200.0,
+      "expected_rent_3h_per_turn": 62.88,
+      "expected_rent_hotel_per_turn": 93.53,
+      "turns_breakeven_3h": 32.3,
+      "turns_breakeven_hotel": 31.3
+    },
+    "Yellow": {
+      "prop_cost": 800.0,
+      "house_cost": 150.0,
+      "group_visit_rate_pct": 7.97,
+      "cost_3_houses": 2150.0,
+      "cost_hotel": 3050.0,
+      "rent_3_houses_sum": 2450.0,
+      "rent_hotel_sum": 3500.0,
+      "expected_rent_3h_per_turn": 65.06,
+      "expected_rent_hotel_per_turn": 92.96,
+      "turns_breakeven_3h": 33.0,
+      "turns_breakeven_hotel": 32.8
+    },
+    "Green": {
+      "prop_cost": 920.0,
+      "house_cost": 200.0,
+      "group_visit_rate_pct": 7.8,
+      "cost_3_houses": 2720.0,
+      "cost_hotel": 3920.0,
+      "rent_3_houses_sum": 2800.0,
+      "rent_hotel_sum": 3950.0,
+      "expected_rent_3h_per_turn": 72.72,
+      "expected_rent_hotel_per_turn": 102.61,
+      "turns_breakeven_3h": 37.4,
+      "turns_breakeven_hotel": 38.2
+    },
+    "Dark Blue": {
+      "prop_cost": 750.0,
+      "house_cost": 200.0,
+      "group_visit_rate_pct": 4.82,
+      "cost_3_houses": 1950.0,
+      "cost_hotel": 2750.0,
+      "rent_3_houses_sum": 2500.0,
+      "rent_hotel_sum": 3500.0,
+      "expected_rent_3h_per_turn": 60.87,
+      "expected_rent_hotel_per_turn": 85.39,
+      "turns_breakeven_3h": 32.0,
+      "turns_breakeven_hotel": 32.2
+    },
+    "Railroad": {
+      "prop_cost": 800.0,
+      "house_cost": 0.0,
+      "group_visit_rate_pct": 11.38,
+      "cost_3_houses": 800.0,
+      "cost_hotel": 800.0,
+      "rent_3_houses_sum": 800.0,
+      "rent_hotel_sum": 800.0,
+      "expected_rent_3h_per_turn": 22.76,
+      "expected_rent_hotel_per_turn": 22.76,
+      "turns_breakeven_3h": 35.1,
+      "turns_breakeven_hotel": 35.1
+    }
+  },
+  "top_10_tiles": [
+    {
+      "name": "Jail / Just Visiting",
+      "index": 10,
+      "group": "Special",
+      "probability_pct": 6.196
+    },
+    {
+      "name": "Illinois Ave",
+      "index": 24,
+      "group": "Red",
+      "probability_pct": 3.186
+    },
+    {
+      "name": "GO",
+      "index": 0,
+      "group": "Special",
+      "probability_pct": 3.09
+    },
+    {
+      "name": "New York Ave",
+      "index": 19,
+      "group": "Orange",
+      "probability_pct": 3.083
+    },
+    {
+      "name": "B. & O. Railroad",
+      "index": 25,
+      "group": "Railroad",
+      "probability_pct": 3.065
+    },
+    {
+      "name": "Reading Railroad",
+      "index": 5,
+      "group": "Railroad",
+      "probability_pct": 2.964
+    },
+    {
+      "name": "Tennessee Ave",
+      "index": 18,
+      "group": "Orange",
+      "probability_pct": 2.935
+    },
+    {
+      "name": "Pennsylvania Railroad",
+      "index": 15,
+      "group": "Railroad",
+      "probability_pct": 2.918
+    },
+    {
+      "name": "Free Parking",
+      "index": 20,
+      "group": "Special",
+      "probability_pct": 2.884
+    },
+    {
+      "name": "Kentucky Ave",
+      "index": 21,
+      "group": "Red",
+      "probability_pct": 2.834
+    }
+  ],
+  "all_tiles_probabilities": [
+    {
+      "name": "Jail / Just Visiting",
+      "index": 10,
+      "group": "Special",
+      "probability_pct": 6.196
+    },
+    {
+      "name": "Illinois Ave",
+      "index": 24,
+      "group": "Red",
+      "probability_pct": 3.186
+    },
+    {
+      "name": "GO",
+      "index": 0,
+      "group": "Special",
+      "probability_pct": 3.09
+    },
+    {
+      "name": "New York Ave",
+      "index": 19,
+      "group": "Orange",
+      "probability_pct": 3.083
+    },
+    {
+      "name": "B. & O. Railroad",
+      "index": 25,
+      "group": "Railroad",
+      "probability_pct": 3.065
+    },
+    {
+      "name": "Reading Railroad",
+      "index": 5,
+      "group": "Railroad",
+      "probability_pct": 2.964
+    },
+    {
+      "name": "Tennessee Ave",
+      "index": 18,
+      "group": "Orange",
+      "probability_pct": 2.935
+    },
+    {
+      "name": "Pennsylvania Railroad",
+      "index": 15,
+      "group": "Railroad",
+      "probability_pct": 2.918
+    },
+    {
+      "name": "Free Parking",
+      "index": 20,
+      "group": "Special",
+      "probability_pct": 2.884
+    },
+    {
+      "name": "Kentucky Ave",
+      "index": 21,
+      "group": "Red",
+      "probability_pct": 2.834
+    },
+    {
+      "name": "Water Works",
+      "index": 28,
+      "group": "Utility",
+      "probability_pct": 2.808
+    },
+    {
+      "name": "St. James Place",
+      "index": 16,
+      "group": "Orange",
+      "probability_pct": 2.792
+    },
+    {
+      "name": "Indiana Ave",
+      "index": 23,
+      "group": "Red",
+      "probability_pct": 2.735
+    },
+    {
+      "name": "Atlantic Ave",
+      "index": 26,
+      "group": "Yellow",
+      "probability_pct": 2.707
+    },
+    {
+      "name": "St. Charles Place",
+      "index": 11,
+      "group": "Pink",
+      "probability_pct": 2.703
+    },
+    {
+      "name": "Ventnor Ave",
+      "index": 27,
+      "group": "Yellow",
+      "probability_pct": 2.678
+    },
+    {
+      "name": "Pacific Ave",
+      "index": 31,
+      "group": "Green",
+      "probability_pct": 2.677
+    },
+    {
+      "name": "Boardwalk",
+      "index": 39,
+      "group": "Dark Blue",
+      "probability_pct": 2.629
+    },
+    {
+      "name": "North Carolina Ave",
+      "index": 32,
+      "group": "Green",
+      "probability_pct": 2.625
+    },
+    {
+      "name": "Electric Company",
+      "index": 12,
+      "group": "Utility",
+      "probability_pct": 2.606
+    },
+    {
+      "name": "Community Chest 2",
+      "index": 17,
+      "group": "Special",
+      "probability_pct": 2.592
+    },
+    {
+      "name": "Marvin Gardens",
+      "index": 29,
+      "group": "Yellow",
+      "probability_pct": 2.586
+    },
+    {
+      "name": "Pennsylvania Ave",
+      "index": 34,
+      "group": "Green",
+      "probability_pct": 2.5
+    },
+    {
+      "name": "Virginia Ave",
+      "index": 14,
+      "group": "Pink",
+      "probability_pct": 2.466
+    },
+    {
+      "name": "Short Line Railroad",
+      "index": 35,
+      "group": "Railroad",
+      "probability_pct": 2.433
+    },
+    {
+      "name": "Community Chest 3",
+      "index": 33,
+      "group": "Special",
+      "probability_pct": 2.384
+    },
+    {
+      "name": "States Ave",
+      "index": 13,
+      "group": "Pink",
+      "probability_pct": 2.372
+    },
+    {
+      "name": "Income Tax",
+      "index": 4,
+      "group": "Special",
+      "probability_pct": 2.33
+    },
+    {
+      "name": "Vermont Ave",
+      "index": 8,
+      "group": "Light Blue",
+      "probability_pct": 2.322
+    },
+    {
+      "name": "Connecticut Ave",
+      "index": 9,
+      "group": "Light Blue",
+      "probability_pct": 2.301
+    },
+    {
+      "name": "Oriental Ave",
+      "index": 6,
+      "group": "Light Blue",
+      "probability_pct": 2.263
+    },
+    {
+      "name": "Park Place",
+      "index": 37,
+      "group": "Dark Blue",
+      "probability_pct": 2.188
+    },
+    {
+      "name": "Luxury Tax",
+      "index": 38,
+      "group": "Special",
+      "probability_pct": 2.182
+    },
+    {
+      "name": "Baltic Ave",
+      "index": 3,
+      "group": "Brown",
+      "probability_pct": 2.164
+    },
+    {
+      "name": "Mediterranean Ave",
+      "index": 1,
+      "group": "Brown",
+      "probability_pct": 2.134
+    },
+    {
+      "name": "Community Chest 1",
+      "index": 2,
+      "group": "Special",
+      "probability_pct": 1.887
+    },
+    {
+      "name": "Chance 2",
+      "index": 22,
+      "group": "Special",
+      "probability_pct": 1.049
+    },
+    {
+      "name": "Chance 3",
+      "index": 36,
+      "group": "Special",
+      "probability_pct": 0.867
+    },
+    {
+      "name": "Chance 1",
+      "index": 7,
+      "group": "Special",
+      "probability_pct": 0.865
+    },
+    {
+      "name": "Go to Jail",
+      "index": 30,
+      "group": "Special",
+      "probability_pct": 0.0
+    }
+  ],
+  "house_starvation_rate_pct": 79.8,
+  "avg_game_length_turns": 28.7,
+  "3_house_jump": {
+    "new_york_ave": {
+      "rent_2h": 220,
+      "rent_3h": 600,
+      "multiplier": 2.73
+    },
+    "st_james": {
+      "rent_2h": 200,
+      "rent_3h": 550,
+      "multiplier": 2.75
+    },
+    "tennessee": {
+      "rent_2h": 200,
+      "rent_3h": 550,
+      "multiplier": 2.75
+    },
+    "illinois": {
+      "rent_2h": 300,
+      "rent_3h": 750,
+      "multiplier": 2.5
+    },
+    "boardwalk": {
+      "rent_2h": 600,
+      "rent_3h": 1400,
+      "multiplier": 2.33
+    }
+  }
+}

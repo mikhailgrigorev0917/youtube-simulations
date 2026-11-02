@@ -1,0 +1,37 @@
+{
+  "simulation_parameters": {
+    "num_events": 100000,
+    "quoted_spread": 0.1,
+    "half_spread": 0.05,
+    "retail_ratio_pct": 70.0,
+    "informed_ratio_pct": 30.0,
+    "avg_informed_jump": 0.35
+  },
+  "naive_maker_results": {
+    "total_fills": 64950,
+    "retail_fills": 35031,
+    "informed_fills": 29919,
+    "retail_fill_share_pct": 49.98644425735934,
+    "informed_fill_share_pct": 100.0,
+    "total_profit_from_retail": 1751.0393380266626,
+    "avg_profit_per_retail_fill": 0.04998542256934323,
+    "total_loss_to_informed": -10501.838728888317,
+    "avg_loss_per_informed_fill": -0.3510090153042654,
+    "net_total_pnl": -8750.799390861654,
+    "avg_realized_spread_per_trade": -0.13473132241511399,
+    "final_equity": -4030.6592583814
+  },
+  "smart_maker_results": {
+    "total_fills": 35050,
+    "retail_fills": 35050,
+    "informed_fills": 0,
+    "total_profit": 1757.5824995618345,
+    "avg_profit_per_fill": 0.050145007120166465,
+    "final_equity": 2916.277122404922
+  },
+  "key_takeaways": {
+    "theoretical_expected_half_spread": 0.05,
+    "naive_actual_realized_spread": -0.13473132241511399,
+    "adverse_selection_penalty": 0.18473132241511397
+  }
+}
